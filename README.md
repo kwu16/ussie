@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/kwu16/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kwu16/ussie/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/kwu16/ussie/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/kwu16/ussie/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to help you to work with European football league
@@ -21,7 +22,7 @@ You can install the development version of ussie from
 devtools::install_github("kwu16/ussie")
 #> Downloading GitHub repo kwu16/ussie@HEAD
 #> 
-#>          checking for file 'C:\TEMP\Rtmp6xnJ7K\remotes451834195c48\kwu16-ussie-9bee363/DESCRIPTION' ...     checking for file 'C:\TEMP\Rtmp6xnJ7K\remotes451834195c48\kwu16-ussie-9bee363/DESCRIPTION' ...   ✔  checking for file 'C:\TEMP\Rtmp6xnJ7K\remotes451834195c48\kwu16-ussie-9bee363/DESCRIPTION' (359ms)
+#>          checking for file 'C:\TEMP\RtmpesXCG2\remotes348462206e9\kwu16-ussie-6209743/DESCRIPTION' ...  ✔  checking for file 'C:\TEMP\RtmpesXCG2\remotes348462206e9\kwu16-ussie-6209743/DESCRIPTION' (341ms)
 #>       ─  preparing 'ussie':
 #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
 #>       ─  checking for LF line-endings in source and make files and shell scripts
@@ -29,7 +30,7 @@ devtools::install_github("kwu16/ussie")
 #>       ─  building 'ussie_0.0.0.9000.tar.gz'
 #>      
 #> 
-#> Installing package into 'C:/TEMP/RtmpyoLu9f/temp_libpath36601ac073c9'
+#> Installing package into 'C:/TEMP/RtmpyoLu9f/temp_libpath366051a2619c'
 #> (as 'lib' is unspecified)
 ```
 
