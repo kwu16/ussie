@@ -16,4 +16,8 @@ Useful links:
 }
 
 }
+\author{
+\strong{Maintainer}: Kevin Wu \email{kevin.wu4@hilton.com}
+
+}
 \keyword{internal}
