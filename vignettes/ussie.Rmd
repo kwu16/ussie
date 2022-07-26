@@ -29,4 +29,13 @@ matches_italy <- uss_make_matches(engsoccerdata::italy, "Italy") |> glimpse()
 
 ```
 
+```{r uss_get_matches_filter}
+
+uss_get_matches("england", season = 1966) |>
+  glimpse()
+
+
+```
+
+
 
