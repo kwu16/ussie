@@ -91,8 +91,7 @@
 <p>The goal of ussie is to help you work with European Football League data. It uses data from the engsoccerdata package.</p>
 <p>We can create a matches tibble using raw data from engsoccerdata:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">matches_italy</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/uss_make_matches.html">uss_make_matches</a></span><span class="op">(</span><span class="fu">engsoccerdata</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/engsoccerdata/man/italy.html" class="external-link">italy</a></span>, <span class="st">"Italy"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">matches_italy</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="va">matches_italy</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/uss_make_matches.html">uss_make_matches</a></span><span class="op">(</span><span class="fu">engsoccerdata</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/engsoccerdata/man/italy.html" class="external-link">italy</a></span>, <span class="st">"Italy"</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Rows: 25,404</span></span>
 <span><span class="co">#&gt; Columns: 8</span></span>
 <span><span class="co">#&gt; $ country       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Italy", "Italy", "Italy", "Italy", "Italy", "Italy", "I…</span></span>
